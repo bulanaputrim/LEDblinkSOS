@@ -24,14 +24,14 @@ void SOSBlink::blinkSOS() {
 
 void SOSBlink::dot() {
   digitalWrite(_pin, HIGH);
-  delay(200);  // LED menyala selama 200 ms
+  delay(200);
   digitalWrite(_pin, LOW);
-  delay(200);  // LED mati selama 200 ms
+  delay(200);
 }
 
 void SOSBlink::dash() {
   digitalWrite(_pin, HIGH);
-  delay(600);  // LED menyala selama 600 ms
+  delay(600);
   digitalWrite(_pin, LOW);
-  delay(200);  // LED mati selama 200 ms
+  delay(200);
 }
