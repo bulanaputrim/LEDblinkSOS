@@ -24,7 +24,7 @@
    ```cpp
    #include <TsaniaBulan.h>
 
-   const int ledPin = 2;
+   const int ledPin = 2; // replace it with the pin number that connects the LED
    SOSBlink sos(ledPin);
 
    void setup() {
