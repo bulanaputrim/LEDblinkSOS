@@ -1,11 +1,11 @@
 # TsaniaBulan Library
 
 ## Author
-Tsania Galuh Banggash (22/500322/TK/54834)
-Bulan Aprilia Putri Murela (22/500326/TK/54834)
+1. Tsania Galuh Banggash (22/500322/TK/54834)
+2. Bulan Aprilia Putri Murela (22/500326/TK/54834)
 
 ## Overview
-The **TsaniaBulan** library provides simple methods to control an LED and send SOS signals using Morse code. This library is designed for use with Arduino and compatible boards.
+**TsaniaBulan** library provides simple methods to control an LED toggle and send SOS signals using Morse code. This library is designed for use with Arduino and compatible boards.
 
 ## Installation
 
@@ -21,9 +21,9 @@ The **TsaniaBulan** library provides simple methods to control an LED and send S
 3. Move the `TsaniaBulan` folder to your Arduino libraries directory (usually located in `Documents/Arduino/libraries`).
 
 ## Usage
-1. Include the library in your Arduino sketch:
    ```cpp
    #include <TsaniaBulan.h>
+
    const int ledPin = 2;
    SOSBlink sos(ledPin);
 
